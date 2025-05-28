@@ -1,6 +1,6 @@
 {
   "name": "keeno-env",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Implements routines  to work with encrypted environment variable files",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,11 @@
     "encrypt": "node index.js --encrypt",
     "decrypt": "node index.js --decrypt",
     "test": "jest --bail"
+  },
+  "dependencies": {
+    "keeno-schema": "^0.3.0",
+    "keeno-system": "^0.2.0",
+    "topsecret": "^0.10.3"
   },
   "repository": {
     "type": "git",
@@ -31,11 +36,5 @@
   "bugs": {
     "url": "https://github.com/miketerry-org/keeno-env/issues"
   },
-  "homepage": "https://github.com/miketerry-org/keeno-env#readme",
-  "dependencies": {
-    "dotenv": "^16.5.0",
-    "keeno-schema": "^0.3.0",
-    "keeno-system": "^0.2.0",
-    "topsecret": "^0.10.3"
-  }
+  "homepage": "https://github.com/miketerry-org/keeno-env#readme"
 }
